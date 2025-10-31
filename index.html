@@ -14,6 +14,45 @@
 <script>
 (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="5yPXdJr9Pn0D2N5agPLRe";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
 </script>
+<style>
+/* Chatbase 机器人位置优化 - 专业设计 */
+#chatbase-bubble-button {
+  bottom: 80px !important;
+  right: 24px !important;
+  box-shadow: 0 8px 24px rgba(102, 126, 234, 0.25), 0 4px 8px rgba(102, 126, 234, 0.15) !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+#chatbase-bubble-button:hover {
+  transform: translateY(-4px) scale(1.05) !important;
+  box-shadow: 0 12px 32px rgba(102, 126, 234, 0.35), 0 6px 12px rgba(102, 126, 234, 0.2) !important;
+}
+
+/* 聊天窗口位置优化 */
+#chatbase-bubble-window {
+  bottom: 160px !important;
+  right: 24px !important;
+  max-height: calc(100vh - 200px) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.12), 0 8px 16px rgba(0, 0, 0, 0.08) !important;
+  border: 1px solid rgba(102, 126, 234, 0.1) !important;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  #chatbase-bubble-button {
+    bottom: 20px !important;
+    right: 20px !important;
+  }
+
+  #chatbase-bubble-window {
+    bottom: 90px !important;
+    right: 20px !important;
+    left: 20px !important;
+    max-height: calc(100vh - 130px) !important;
+  }
+}
+</style>
 </body>
 
 </html>
