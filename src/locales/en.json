@@ -224,10 +224,10 @@
     "add_watermark": "Add Watermark"
   },
   "feedback": {
-    "text_1": "PicX is an image hosting tool developed based on the GitHub API, providing services for image upload hosting, generating image links, and common image tools.",
+    "text_1": "Imgly is an image hosting tool developed based on the GitHub API, providing services for image upload hosting, generating image links, and common image tools.",
     "text_2": "It is recommended to add this site to your browser bookmarks for convenient use in the future.",
-    "text_3": "If PicX is helpful to you, feel free to appreciate the author and support open source.",
-    "text_4": "Disclaimer: Do not use PicX to upload images that violate local laws. The author is not responsible for any consequences."
+    "text_3": "If Imgly is helpful to you, feel free to appreciate the author and support open source.",
+    "text_4": "Disclaimer: Do not use Imgly to upload images that violate local laws. The author is not responsible for any consequences."
   },
   "region": {
     "CN": "Mainland China",

@@ -152,7 +152,7 @@ export const throttle = <T extends (...args: any[]) => void>(func: T, wait: numb
  */
 export const setWindowTitle = (title: string) => {
   if (title) {
-    ;(<any>window).document.title = `${i18n.global.t(title)} | PicX`
+    ;(<any>window).document.title = `${i18n.global.t(title)} | Imgly`
   }
 }
 

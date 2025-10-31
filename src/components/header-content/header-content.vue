@@ -3,9 +3,9 @@
     <div class="header-left border-box">
       <div class="brand-box">
         <div class="logo" @click="router.push('/')">
-          <img src="../../assets/logo.png" alt="PicX" />
+          <img src="https://github.com/kenchikuliu/picx-images-hosting/raw/master/rr.175sn87ztz.webp" alt="Imgly" />
         </div>
-        <div class="title" @click="router.push('/')">PicX</div>
+        <div class="title" @click="router.push('/')">Imgly</div>
       </div>
     </div>
 
