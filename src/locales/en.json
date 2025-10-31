@@ -28,7 +28,7 @@
     "theme": "Theme",
     "announcement": {
       "text_1": "Website Announcement",
-      "text_2": "1. PicX v3.0 further simplifies user operations and uniformly uses built-in repository and branch",
+      "text_2": "1. Imgly v3.0 further simplifies user operations and uniformly uses built-in repository and branch",
       "text_3": "2. If you need to continue to use customized repository and branch, please use",
       "text_4": "Don't remind again"
     }
@@ -247,8 +247,8 @@
   "toggle_language_msg": "Detected that your IP belongs to {region}. Do you want to switch to {language}?",
   "authorization": {
     "msg_1": "GitHub OAuth authorization has expired. Please reauthorize.",
-    "msg_2": "PicX APP is not installed on GitHub, no operational permissions currently.",
-    "msg_3": "PicX GitHub APP installed successfully. Would you like to authorize and log in?",
+    "msg_2": "Imgly APP is not installed on GitHub, no operational permissions currently.",
+    "msg_3": "Imgly GitHub APP installed successfully. Would you like to authorize and log in?",
     "msg_4": "Authorization failed. Please try again later.",
     "btn_1": "Install Now",
     "loading_1": "Authorizing login...",
@@ -259,10 +259,10 @@
     "text_5": "Logging in using GitHub Token",
     "text_6": "Return to Login Page",
     "text_7": "Switch",
-    "text_8": "GitHub OAuth Authorization Login requires PicX GitHub APP installation.",
+    "text_8": "GitHub OAuth Authorization Login requires Imgly GitHub APP installation.",
     "text_9": "Login with GitHub Token requires generating a Token with operational permissions.",
     "text_10": "View Tutorial",
-    "text_11": "Install PicX GitHub APP",
+    "text_11": "Install Imgly GitHub APP",
     "text_12": "Create GitHub Token",
     "text_13": "Authorize now"
   },

@@ -102,8 +102,7 @@ export const githubAppAuthorizeCallback = async () => {
         loading.close()
 
         // 跳转到图床配置页面，进行一键自动配置
-        const oriUrl = window.location.href.replace(window.location.search, '')
-        window.location.href = `${oriUrl}config?auto=1`
+        window.location.href = `${redirect_uri}/#/config?auto=1`
       }
 
       loading.close()

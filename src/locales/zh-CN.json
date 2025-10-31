@@ -28,7 +28,7 @@
     "theme": "主题",
     "announcement": {
       "text_1": "网站公告",
-      "text_2": "1、PicX v3.0 进一步简化用户操作，统一使用内置的仓库和分支",
+      "text_2": "1、Imgly v3.0 进一步简化用户操作，统一使用内置的仓库和分支",
       "text_3": "2、如果你需要继续使用自定义的仓库和分支，请使用",
       "text_4": "不再提示"
     }
@@ -247,8 +247,8 @@
   "toggle_language_msg": "检测到你的 IP 所属地为{region}，是否切换{language}？",
   "authorization": {
     "msg_1": "GitHub OAuth 授权登录已过期，请重新授权",
-    "msg_2": "未在 GitHub 安装 PicX APP，暂无操作权限",
-    "msg_3": "PicX GitHub APP 安装成功，是否进行授权登录？",
+    "msg_2": "未在 GitHub 安装 Imgly APP，暂无操作权限",
+    "msg_3": "Imgly GitHub APP 安装成功，是否进行授权登录？",
     "msg_4": "授权失败，稍后重试",
     "btn_1": "立即安装",
     "loading_1": "正在授权登录...",
@@ -259,10 +259,10 @@
     "text_5": "正在使用填写 GitHub Token 登录",
     "text_6": "返回登录页",
     "text_7": "切换",
-    "text_8": "使用 GitHub OAuth 授权登录必须安装 PicX GitHub APP",
+    "text_8": "使用 GitHub OAuth 授权登录必须安装 Imgly GitHub APP",
     "text_9": "填写 GitHub Token 登录必须生成具有操作权限的 Token",
     "text_10": "查看教程",
-    "text_11": "安装 PicX GitHub APP",
+    "text_11": "安装 Imgly GitHub APP",
     "text_12": "创建 GitHub Token",
     "text_13": "立即授权"
   },
