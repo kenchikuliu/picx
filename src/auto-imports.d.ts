@@ -8,7 +8,6 @@ declare global {
   const ElMessage: typeof import('element-plus/es')['ElMessage']
   const ElMessageBox: typeof import('element-plus/es')['ElMessageBox']
   const IEpArrowRight: typeof import('~icons/ep/arrow-right')['default']
-  const IEpChatDotRound: typeof import('~icons/ep/chat-dot-round')['default']
   const IEpCheck: typeof import('~icons/ep/check')['default']
   const IEpClose: typeof import('~icons/ep/close')['default']
   const IEpEdit: typeof import('~icons/ep/edit')['default']
@@ -18,6 +17,5 @@ declare global {
   const IEpPicture: typeof import('~icons/ep/picture')['default']
   const IEpPostcard: typeof import('~icons/ep/postcard')['default']
   const IEpSetting: typeof import('~icons/ep/setting')['default']
-  const IEpSwitch: typeof import('~icons/ep/switch')['default']
   const IEpUpload: typeof import('~icons/ep/upload')['default']
 }
