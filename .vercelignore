@@ -1,0 +1,9 @@
+node_modules
+.git
+.cache
+.husky
+pnpm-lock.yaml
+.env.development
+.env.production
+*.log
+.DS_Store
