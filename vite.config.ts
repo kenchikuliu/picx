@@ -43,6 +43,9 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
     optimizeDeps: {
       exclude: ['@yireen/squoosh-browser']
     },
+    worker: {
+      format: 'es'
+    },
     server: {
       port: 4000,
       open: true,
@@ -54,6 +57,16 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
         compress: {
           pure_funcs: ['console.log'], // 删除 console.log
           drop_debugger: true // 删除 debugger
+        }
+      },
+      rollupOptions: {
+        output: {
+          manualChunks: (id) => {
+            // 将 squoosh-browser 相关的 worker 文件单独打包
+            if (id.includes('@yireen/squoosh-browser')) {
+              return 'squoosh-browser'
+            }
+          }
         }
       }
     }
