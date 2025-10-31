@@ -5,6 +5,8 @@
   width 100%
   height 100%
   padding-right 20rem
+  background linear-gradient(135deg, #667eea 0%, #764ba2 100%)
+  box-shadow 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
 
 
   .header-left {
@@ -24,6 +26,7 @@
 
       .fold-icon {
         margin-right $left-side-padding * 0.8
+        color #ffffff
         font-size 28rem
         cursor pointer
       }
@@ -32,17 +35,23 @@
         width 40rem
         height 40rem
         margin-right 10rem
+        overflow hidden
+        border-radius 8rem
+        box-shadow 0 2px 8px rgba(0, 0, 0, 0.15)
 
         img {
           width 100%
           height 100%
+          object-fit cover
         }
       }
 
 
       .title {
+        color #ffffff
         font-weight bold
         font-size 30rem
+        text-shadow 0 2px 4px rgba(0, 0, 0, 0.1)
       }
     }
   }

@@ -54,55 +54,61 @@ $z-index-9 = 1009
 
 
 // ========================================================================================
-// light mode color
+// light mode color - Modern Gradient Theme
 // ========================================================================================
-$background-color = #fff
-$background-color-2 = #f6f8fb
-$background-color-3 = darken($background-color, 10%)
+$primary-gradient-start = #667eea  // 渐变起始色 - 蓝紫色
+$primary-gradient-end = #764ba2    // 渐变结束色 - 深紫色
+$accent-color = #06b6d4            // 强调色 - 青色
 
-$text-color = #50505c
-$text-color-2 = darken($text-color, 10%)
-$text-color-3 = darken($text-color, 5%)
-$text-color-4 = lighten($text-color, 30%)
-$text-color-5 = lighten($text-color, 90%)
+$background-color = #ffffff
+$background-color-2 = #f8fafc      // 更柔和的浅灰蓝
+$background-color-3 = #e2e8f0
 
-$border-color = darken($background-color, 20%)
+$text-color = #334155              // 深灰蓝色文本
+$text-color-2 = #1e293b
+$text-color-3 = #475569
+$text-color-4 = #94a3b8
+$text-color-5 = #f1f5f9
 
-$shadow-color = rgba(0, 0, 0, 0.25)
-$shadow-hover-color = rgba(0, 0, 0, 0.45)
+$border-color = #e2e8f0
+$shadow-color = rgba(100, 116, 139, 0.12)
+$shadow-hover-color = rgba(100, 116, 139, 0.24)
 
-$scrollbar-color = darken($background-color, 20%)
-$scroll-bar-bg-color = darken($background-color, 30%)
+$scrollbar-color = #cbd5e1
+$scroll-bar-bg-color = #e2e8f0
 
-$await-upload-color = #e6a23c
-$uploading-color = #409eff
-$uploaded-color = #67c23a
+$await-upload-color = #f59e0b      // 琥珀色
+$uploading-color = #3b82f6         // 蓝色
+$uploaded-color = #10b981          // 绿色
 
 
 // ========================================================================================
-// dark mode color
+// dark mode color - Dark Blue-Gray Theme
 // ========================================================================================
-$dark-background-color = #2a2a2f
-$dark-background-color-2 = darken($dark-background-color, 10%)
-$dark-background-color-3 = darken($dark-background-color, 15%)
+$dark-primary-gradient-start = #6366f1  // 暗色渐变起始 - 靛蓝
+$dark-primary-gradient-end = #8b5cf6    // 暗色渐变结束 - 紫色
+$dark-accent-color = #22d3ee           // 暗色强调 - 亮青色
 
-$dark-text-color = #bebec6
-$dark-text-color-2 = lighten($dark-text-color, 30%)
-$dark-text-color-3 = lighten($dark-text-color, 20%)
-$dark-text-color-4 = darken($dark-text-color, 20%)
-$dark-text-color-5 = darken($dark-text-color, 80%)
+$dark-background-color = #0f172a       // 深蓝灰色
+$dark-background-color-2 = #1e293b     // 稍浅的深蓝灰
+$dark-background-color-3 = #334155
 
-$dark-border-color = lighten($dark-background-color, 20%)
+$dark-text-color = #cbd5e1            // 浅灰色文本
+$dark-text-color-2 = #f1f5f9
+$dark-text-color-3 = #e2e8f0
+$dark-text-color-4 = #64748b
+$dark-text-color-5 = #1e293b
 
-$dark-shadow-color = rgba(128, 128, 128, 0.25)
-$dark-shadow-hover-color = rgba(128, 128, 128, 0.45)
+$dark-border-color = #334155
+$dark-shadow-color = rgba(0, 0, 0, 0.3)
+$dark-shadow-hover-color = rgba(0, 0, 0, 0.5)
 
-$dark-scrollbar-color = darken($dark-background-color, 20%)
-$dark-scroll-bar-bg-color = lighten($dark-background-color, 30%)
+$dark-scrollbar-color = #334155
+$dark-scroll-bar-bg-color = #475569
 
-$dark-await-upload-color = darken($await-upload-color, 30%)
-$dark-uploading-color = darken($uploading-color, 30%)
-$dark-uploaded-color = darken($uploaded-color, 30%)
+$dark-await-upload-color = #fb923c    // 暗色琥珀
+$dark-uploading-color = #60a5fa       // 暗色蓝
+$dark-uploaded-color = #34d399        // 暗色绿
 
 
 root-color(mode) {
