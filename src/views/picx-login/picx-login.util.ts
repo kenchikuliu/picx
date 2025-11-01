@@ -6,7 +6,7 @@ import router from '@/router'
 import i18n from '@/plugins/vue/i18n'
 
 const redirect_uri = import.meta!.env.VITE_REDIRECT_URI
-const authorize_api = 'https://apis.xpoet.cn/api/github-authorize'
+const authorize_api = import.meta!.env.VITE_AUTHORIZE_API || 'https://apis.xpoet.cn/api/github-authorize'
 
 /**
  * 判断授权获取的 Token 是否已过期
